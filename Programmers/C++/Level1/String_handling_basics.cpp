@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// 내가 코딩한 코드
 bool solution(string s) {
     bool answer = false;
     int len = s.length();
