@@ -1,12 +1,5 @@
 def solution(n, arr1, arr2):
     answer = []
-    temp1 = []
-    temp2 = []
-    
-    for i in arr1:
-        temp1.append(format(i, 'b').zfill(n))
-    for i in arr2:
-        temp2.append(format(i, 'b').zfill(n))
     
     for x, y in zip(arr1, arr2):
         answer.append(format(x | y, 'b').zfill(n))
